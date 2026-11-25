@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63958382c48f24946b1bfe567d9e8451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orbits
-  pivot: {fileID: 0}
-  angularSpeed: 4
+  pivot: {fileID: 876745204787357753}
+  angularSpeed: -10
   selfRotationSpeed: 5
 --- !u!1 &5815111274446139233
 GameObject:

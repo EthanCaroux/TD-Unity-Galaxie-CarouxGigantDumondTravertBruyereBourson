@@ -157,6 +157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63958382c48f24946b1bfe567d9e8451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orbits
-  pivot: {fileID: 0}
+  pivot: {fileID: 5422566376964633691}
   angularSpeed: 15
   selfRotationSpeed: 30
