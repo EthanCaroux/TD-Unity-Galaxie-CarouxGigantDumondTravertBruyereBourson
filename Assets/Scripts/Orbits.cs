@@ -3,13 +3,13 @@ public class Orbits : MonoBehaviour
 {
     //Centre de l’orbite (ex: le Soleil)
     [Header("Objet à orbiter")]
-    private Transform pivot;
+    [SerializeField] private Transform pivot;
     //Vitesse angulaire en degrés/seconde
     [Header("Vitesse angulaire")]
-    private float angularSpeed = 20f;
+    [SerializeField] private float angularSpeed = 20f;
     //Rotation propre de la planète en degrés/seconde
     [Header("Rotation de l'objet")]
-    private float selfRotationSpeed = 30f;
+    [SerializeField] private float selfRotationSpeed = 30f;
     void Update()
     {
         if (pivot != null)
